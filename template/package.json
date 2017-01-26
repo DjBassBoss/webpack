@@ -13,6 +13,24 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
+    {{#vuex}}
+    "vuex": "^2.0.0",
+    {{/vuex}}
+    {{#vuerouter}}
+    "vue-router": "^2.1.1",
+    {{/vuerouter}}
+    {{#vueresource}}
+    "vue-resource": "^1.0.3",
+    {{/vueresource}}
+    {{#d3}}
+    "d3": "^4.4.0",
+    {{/d3}}
+    {{#lazyjs}}
+    "lazy.js": "^0.4.2",
+    {{/lazyjs}}
+    {{#arrayquery}}
+    "array-query": "^0.1.2",
+    {{/arrayquery}}
     "vue": "^2.1.0"
   },
   "devDependencies": {
@@ -80,6 +98,14 @@
     "selenium-server": "2.53.1",
     {{/e2e}}
     "semver": "^5.3.0",
+    {{#sass}}
+    "node-sass": "^3.13.0",
+    "sass-loader": "^4.0.2",
+    {{/sass}}
+    {{#pug}}
+    "pug": "^2.0.0-beta9",
+    "pug-loader": "^2.3.0",
+    {{/pug}}
     "opn": "^4.0.2",
     "ora": "^0.3.0",
     "shelljs": "^0.7.4",

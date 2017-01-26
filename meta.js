@@ -66,6 +66,38 @@ module.exports = {
         }
       ]
     },
+    "sass": {
+      "type": "confirm",
+      "message": "Use sass for styling?"
+    },
+    "pug": {
+      "type": "confirm",
+      "message": "Use pug (jade) fro markup?"
+    },
+    "vuex": {
+      "type": "confirm",
+      "message": "Install VueX?"
+    },
+    "vuerouter": {
+      "type": "confirm",
+      "message": "Install vue-router?"
+    },
+    "vueresource": {
+      "type": "confirm",
+      "message": "Install vue-resource?"
+    },
+    "d3": {
+      "type": "confirm",
+      "message": "Install d3?"
+    },
+    "lazyjs": {
+      "type": "confirm",
+      "message": "Install Lazy.js?"
+    },
+    "arrayquery": {
+      "type": "confirm",
+      "message": "Install Array-Query?"
+    },
     "unit": {
       "type": "confirm",
       "message": "Setup unit tests with Karma + Mocha?"
